@@ -10,8 +10,19 @@ that need to be fully resolved.
 
 ## Install
 
+The odds are high that your project already uses a git hook or you simply do not want
+to add this to any existing project.
+
+For this it is best to install this globally and point your git config to use it.
+
 Run:
 
 ```
-composer require haringsrob/php-nocheckin
+composer global require haringsrob/php-nocheckin
+```
+
+If you do want to install it for your project only use:
+
+```
+composer require --dev haringsrob/php-nocheckin
 ```

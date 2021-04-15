@@ -1,9 +1,9 @@
 #!/bin/sh
 # @NOCHECKIN
-if [ ! -f .git/hooks/nocheckin-pre-commit-hook ];
+if [ ! -f .git/hooks/pre-commit ];
 then
     echo "symlinking .. nocheckin hook"
-    ln ./nocheckin-pre-commit-hook .git/hooks/nocheckin-pre-commit-hook
+    ln ./pre-commit .git/hooks/pre-commit
 else
     echo ".nocheckin is already a symlink"
 fi

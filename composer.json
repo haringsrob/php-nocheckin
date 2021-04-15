@@ -2,6 +2,7 @@
     "name": "haringsrob/php-nocheckin",
     "description": "Adds a git hook to block commits if @NOCHECKIN is found in modified files.",
     "type": "library",
+    "stability": "stable",
     "license": "MIT",
     "authors": [
         {
